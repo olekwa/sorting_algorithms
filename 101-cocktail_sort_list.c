@@ -5,7 +5,8 @@ void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker);
 void cocktail_sort_list(listint_t **list);
 
 /**
- * swap_node_ahead - This is used to swap a node of integers with the node in front of it.
+ * swap_node_ahead - This is used to swap a node of integers with the node 
+ *                           in front of it.
  * @list: This points to the head in a doubly-linked list.
  * @tail: This points to the tail in a doubly-linked list.
  * @shaker: This points to the swapping node in the cocktail shaker algo.
